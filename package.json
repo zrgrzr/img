@@ -30,8 +30,8 @@
   },
   "scripts": {
     "start-dev": "react-scripts --openssl-legacy-provider start",
-    "start": "serve -s build",
-    "build": "react-scripts build",
+    "start": "serve -s build --openssl-legacy-provider",
+    "build": "react-scripts build --openssl-legacy-provider",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
